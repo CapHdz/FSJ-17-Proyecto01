@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Barlow:wght@100&family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow';
+}
+/** Diseño  Encabezado*/
+header {
+    background-color: #56b407;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    min-height: 100px;
+}
+.head-content{
+    height: 100px;
+}
+.head{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo{
+    height: 100px;
+    width: auto;
+}
+.menu{
+    display: flex;
+    align-content: center;
+    height: 100px;
+    width: 100%;
+}
+.menu nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+.menu nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+.menu nav a:hover{
+    color: white;
+}
+/** Diseño de bienvenida*/
+main{
+    width: 100%;
+    padding: 20px;
+}
+main section{
+    width: 90%;
+    margin: 5% ;
+    text-align: center;
+}
+#welcome h1{
+    font-family: 'Alkatra';
+    font-size: 4rem;
+    color: #255000;
+}
+.cmdr-welcome{
+    font-size: 1.5rem;
+}
+#info h1{
+    font-family: 'Alkatra';
+    font-size: 4rem;
+    color: #255000;
+}
+.cmdr-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.info-links{
+    width: 90%;
+    font-size: 2rem;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.5);
+    text-align: center;
+    margin: 5%;
+}
+.info-links img{
+    display: block;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.info-links a {
+    text-decoration: none;
+    color: #255000;
+    font-weight: bolder;
+    margin: 25px;
+}
+/** Diseño  Informacion*/
+#title-info{
+    font-family: 'Alkatra';
+    font-size: 4rem;
+    color: #255000;
+    text-align: center;
+}
+#mv{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#mv div{
+    width: 90%;
+    margin: 0 5%;
+}
+#mv h2{
+    font-family: 'Alkatra';
+    font-size: 2.5rem;
+    color: #255000;
+}
+#mv p{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: black;
+}
+#mapa h1{
+    font-family: 'Alkatra';
+    font-size: 3rem;
+    color: #255000;
+}
+#mapa a{
+    font-size: 3rem;
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 10px;
+}
+#mapa a:hover{
+    background-color: #56b407;
+    color: white;
+}
+/** Diseño  Ubicacion*/
+#ubicacion p{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+#ubicacion h1{
+    font-family: 'Alkatra';
+    font-size: 4rem;
+    color: #255000;
+}
+iframe{
+    width: 90%;
+    margin: 0  5%;
+}
+/** Diseño  Menú*/
+#menu-w h1{
+    font-family: 'Alkatra';
+    font-size: 4rem;
+    color: #255000;
+}
+#menu-w p{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+#menu-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#menu-grid div {
+    height: auto;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.5);
+    margin: 5%;
+    transition: 350ms;
+}
+#menu-grid div:hover {
+    transform: scale(1.1);
+}
+#menu-grid div h3{
+    font-size: 1.5rem;
+    color: #255000;
+    font-weight: bolder;
+    padding: 10px;
+}
+#menu-grid div img{
+    width: 250px;
+}
+/** Diseño  Contacto*/
+#contact-title h1{
+    font-family: 'Alkatra';
+    font-size: 4rem;
+    color: #255000;
+}
+#contact-title p{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+#ntw-area a{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: black;
+}
+#ntw-area p{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: black;
+}
+#ntw-area div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    gap: 20px;
+}
+#ntw-area img{
+    width: 75px;
+}
+/** Diseño  Pie de pagina*/
+footer{
+    background-color: #56b407;
+    display: block;
+    min-height: 100px;
+}
+.footer-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    height: 75px;
+    background-color: #56b407;
+}
+.footer-phrase{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-phrase h2{
+    color: #255000;
+    font-family: 'Alkatra';
+    padding: 0 20px;
+}
+.icons-container{
+    background-color: #56b407;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+.icon-nw{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #56b407;
+    background-color: #255000;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.icon-nw:hover{
+    background-color: transparent;
+    color: #255000;
+}
+.rigths{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.rigths p{
+    color: #255000;
+    font-size: 1.5rem;
+    font-weight: 1000;
+}
+@media (max-width: 767px) {
+    header{
+        grid-template-columns: 1fr;
+    }
+    .footer-info{
+        grid-template-columns: 1fr;
+
+    }
+    .cmdr-info{
+        grid-template-columns: 1fr;
+
+    }
+    #mv{
+        grid-template-columns: 1fr;
+
+    }
+    #menu-grid{
+        grid-template-columns: 1fr;
+    }
+}
